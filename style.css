@@ -1,0 +1,48 @@
+.h2__title {
+  font-size: 2rem;
+  font-style: oblique;
+  color: white;
+}
+
+/* #movie {
+  width: 50rem;
+} */
+
+body {
+  text-align: center;
+  background-image: url("bg2.webp");
+  background-size: cover;
+}
+
+#comment__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#character_family {
+  width: 30rem;
+  padding: 3rem 0;
+  color: white;
+  font-size: larger;
+}
+
+.desc_center {
+  display: flex;
+  padding: 10rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+#movie__img {
+  max-width: 500px;
+  height: auto;
+}
+
+.image--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
